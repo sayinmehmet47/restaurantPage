@@ -3,7 +3,7 @@ const Home=()=>{
 
 const home=document.createElement("div")
 home.innerHTML=`
- <h1>fdasdfafd</h1>
+<h1>Taste Our Delicios Food</h1>
 
 
 `
