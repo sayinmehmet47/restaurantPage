@@ -3,20 +3,14 @@ const pages = document.querySelector('#pages');
 
 const Menu=()=>{
 
-
     const menu=document.createElement("div")
     menu.innerHTML=`
-        <h1>fdasdfafd</h1>
+        <h1>menu</h1>
     
     `
         menu.classList.add("menuContainer")
 
     pages.appendChild(menu)
-
-
-
-
-
 
 }
 

@@ -11,9 +11,7 @@ import { Navbar } from './Navbar';
 Navbar();
 Home();
 
-
 const pages = document.querySelector('#pages');
-const content = document.querySelector('#content');
 const home = document.querySelector('.home');
 
 home.addEventListener('click', () => {
@@ -22,7 +20,6 @@ home.addEventListener('click', () => {
 });
 
 const menu = document.querySelector('.menu');
-
 
 menu.addEventListener('click', () => {
   pages.innerHTML = '';

@@ -16,3 +16,12 @@ ul{
 li{
     cursor: pointer;
 }
+li:hover{
+    color: rgb(226, 103, 103);
+    transition:0.4s;
+}
+
+#content{
+    display:flex;
+    flex-direction:column-reverse
+}
