@@ -1,0 +1,18 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 20px;
+    background-color: rgb(24, 23, 23);
+    color: white;
+    font-size: 17px;
+}
+li{
+    cursor: pointer;
+}
